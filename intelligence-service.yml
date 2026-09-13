@@ -20,3 +20,8 @@ spring:
       embedding:
         options:
           model: qwen/qwen3-embedding-8b
+
+logging:
+  level:
+    org.springframework.ai:
+      chat.client: DEBUG
